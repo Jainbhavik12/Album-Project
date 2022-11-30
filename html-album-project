@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <input type="radio" name="photos" id="check1" cheked>
+    <input type="radio" name="photos" id="check2">
+    <input type="radio" name="photos" id="check3">
+    <input type="radio" name="photos" id="check4"> 
+
+    <div class="container">
+        <h1>MY ALBUM</h1>
+        <div class="top-content">
+            <h3>Photo Gallery</h3>
+            <label for="check1">All Photos</label>
+            <label for="check2">Family Photos</label>
+            <label for="check3">Child Photos</label>
+            <label for="check4">Visited Places</label>
+        </div>
+        <div class="photo-gallery">
+            <div class="pic place">
+                <img src="place1.jpg" alt="Error">
+            </div>
+            <div class="pic family">
+                <img src="family1.jpg" alt="Error">
+            </div>
+                <div class="pic child">
+                <img src="child1.jpg" alt="Error">
+            </div>
+
+            <div class="pic place">
+                <img src="place2.jpg"  alt="Error">
+            </div>
+            <div class="pic family">
+                <img src="family2.jpg" alt="Error">
+            </div>
+                <div class="pic child">
+                <img src="child2.jpg" alt="Error">
+            </div>
+            <div class="pic place">
+                <img src="place3.jpg" alt="Error">
+            </div>
+            <div class="pic family">
+                <img src="family3.jpg" alt="Error">
+            </div>
+                <div class="pic child">
+                <img src="child3.jpg" alt="Error">
+            </div>
+            <div class="pic place">
+                <img src="place4.jpg" alt="Error">
+            </div>
+            <div class="pic family">
+                <img src="family4.jpg" alt="Error">
+            </div>
+                <div class="pic child">
+                <img src="child4.jpg" alt="Error">
+            </div>
+         </div>
+    </div>
+</body>
+</html>
